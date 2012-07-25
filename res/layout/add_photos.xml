@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iherbarium.views.AddPhotoView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical" >
+        
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp" >
+	
+	        <FrameLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" 
+	            android:layout_weight="1">
+	
+	            <Button
+	                android:id="@+id/btnFolder"
+	                android:text="@string/choose_picture"
+	                android:layout_width="90dp"
+	                android:layout_height="60dp" 
+	                android:layout_gravity="center"
+	                android:background="@drawable/bouton_selector"/>
+	
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1">
+	
+	            <Button
+	                android:id="@+id/btnCamera"
+	                android:text="@string/take_picture"
+	                android:layout_width="90dp"
+	                android:layout_height="60dp" 
+	                android:layout_gravity="center"
+	                android:background="@drawable/bouton_selector"/>
+	        </FrameLayout>
+	    </LinearLayout>
+	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listPictures"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:isScrollContainer="true"
+        android:scrollbarStyle="insideInset">
+    </LinearLayout>
+    
+</com.iherbarium.views.AddPhotoView>

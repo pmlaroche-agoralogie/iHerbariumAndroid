@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iherbarium.views.AddView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <FrameLayout
+        android:id="@+id/frameHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:padding="5dp">
+        
+        <Button
+	        android:id="@+id/btnBack"
+	        android:background="@drawable/bouton_back_selector"
+	        android:layout_gravity="left"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:paddingLeft="5dp"
+	        android:text="@string/back" />
+	
+	    <Button
+	        android:id="@+id/btnNext"
+	        android:background="@drawable/bouton_next_selector"
+	        android:layout_gravity="right"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:paddingRight="5dp"
+	        android:text="@string/next" />
+        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/frameContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+
+</com.iherbarium.views.AddView>

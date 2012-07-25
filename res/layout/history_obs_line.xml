@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iherbarium.views.ObservationLineView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="5dp"
+    android:background="#FFF">
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/historyObsImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/historyObsInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="5dp">
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_obs" />
+
+            <TextView android:id="@+id/txtNumObs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_obs" />
+
+            <TextView android:id="@+id/txtDateObs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/common_name_obs" />
+
+            <TextView android:id="@+id/txtCommonNameObs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scientific_name_obs" />
+
+            <TextView android:id="@+id/txtScientificNameObs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+	    </LinearLayout>
+    </LinearLayout>
+    
+    <FrameLayout
+       	android:layout_width="40dp"
+       	android:layout_height="fill_parent">
+        <FrameLayout
+	       	android:id="@+id/historyObsSync"
+	       	android:layout_width="30dp"
+	       	android:layout_height="30dp"
+	       	android:layout_gravity="center"/>
+   	</FrameLayout>
+
+</com.iherbarium.views.ObservationLineView>

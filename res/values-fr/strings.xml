@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">iHerbarium</string>
+	<string name="add">Ajouter</string>	
+	<string name="history">Historique</string>
+	<string name="settings">Paramètres</string>
+	<string name="web">Web</string>
+	
+	<string name="account_preferences">Péférences du compte</string>
+	<string name="account_settings">Paramètres du compte</string>
+	<string name="select_account">Choisissez un compte</string>
+	<string name="account_not_set">Non défini</string>
+	<string name="connection_status">Etat de connexion</string>
+	<string name="connected">Connecté</string>
+	<string name="not_connected">Non connecté</string>
+	<string name="enter_password">Entrez le mot de passe</string>
+	<string name="synchronization_preferences">Préférences de synchronisation</string>
+	<string name="auto_synchronization">Synchronisation auto</string>
+	<string name="synchronization_help">Synchronisation sera auto après l\'enregistrement de l\'observation</string>
+	<string name="webservice_error">Erreur Service Web</string>
+	<string name="no_location_title">Aucune localisation</string>
+	<string name="no_location_message">Aucune localisation. Voulez-vous continuer?</string>
+	<string name="quit_title">Quitter</string>
+	<string name="quit_message">Si vous quittez, l\'observation en cours sera perdue!</string>
+	
+	<string name="take_picture">Prendre une photo</string>
+	<string name="choose_picture">Choisir une photo</string>
+	<string name="next">Suivant</string>
+	<string name="back">Précédent</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Annuler</string>
+	<string name="date_format">dd/MM/yyyy</string>
+	<string name="start_activity">Démarrer l\'activité</string>
+	<string name="gps_enabled">GPS activé</string>
+	<string name="gps_disabled">GPS desactivé</string>
+	<string name="synchronize">Synchroniser</string>
+	<string name="delete">Supprimer</string>
+	<string name="undefined">Non défini</string>
+	
+	<string name="whole_plant">Plante entière</string>
+	<string name="flower">Fleur</string>
+	<string name="leaf">Feuille</string>
+	<string name="stem">Tige</string>
+	
+	<string name="num_obs">Num Observation : </string>
+	<string name="date_obs">Date : </string>
+	<string name="size_obs">Taille : </string>
+	<string name="commentary_obs">Commentaire : </string>
+	<string name="domain_obs">Domaine : </string>
+	<string name="common_name_obs">Nom commun : </string>
+	<string name="scientific_name_obs">Nom scientifique : </string>
+	<string name="password">Mot de passe : </string>
+</resources>
