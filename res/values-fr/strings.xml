@@ -23,7 +23,7 @@
 	<string name="quit_title">Quitter</string>
 	<string name="quit_message">Si vous quittez, l\'observation en cours sera perdue!</string>
 	
-	<string name="take_picture">Prendre une photo</string>
+	<string name="take_picture">Prendre une photo avec l'appareil</string>
 	<string name="choose_picture">Choisir une photo</string>
 	<string name="next">Suivant</string>
 	<string name="back">Précédent</string>
