@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">iHerbarium</string>
-	<string name="add">Ajouter</string>	
-	<string name="history">Historique</string>
+	<string name="add">Capture</string>	
+	<string name="history">Carnet</string>
 	<string name="settings">Paramètres</string>
 	<string name="web">Web</string>
-	
-	<string name="account_preferences">Péférences du compte</string>
-	<string name="account_settings">Paramètres du compte</string>
+	<string name="account_preferences">Préférences du compte</string>
+	<string name="account_settings">Login/email du compte</string>
 	<string name="select_account">Choisissez un compte</string>
 	<string name="account_not_set">Non défini</string>
 	<string name="connection_status">Etat de connexion</string>
 	<string name="connected">Connecté</string>
 	<string name="not_connected">Non connecté</string>
 	<string name="enter_password">Entrez le mot de passe</string>
-	<string name="synchronization_preferences">Préférences de synchronisation</string>
+	<string name="jpeg_compression">Niveau de compression des images</string>
+	<string name="jpeg_compression_level_20pct">Compression très forte</string>
+	<string name="jpeg_compression_level_40pct">Compression forte</string>
+	<string name="jpeg_compression_level_60pct">Bonne qualité</string>
+	<string name="jpeg_compression_level_80pct">Haute qualité</string>
+	<string name="jpeg_compression_level_90pct">Très haute qualité (à éviter sauf cas particulier)</string>
+	<string name="synchronization_preferences">Préférences de synchronisation entre les observations du téléphone et le site web</string>
 	<string name="auto_synchronization">Synchronisation auto</string>
-	<string name="synchronization_help">Synchronisation sera auto après l\'enregistrement de l\'observation</string>
+	<string name="synchronization_help">L\'envoi sera tenté immédiatement après l\'enregistrement de l\'observation</string>
 	<string name="webservice_error">Erreur Service Web</string>
-	<string name="no_location_title">Aucune localisation</string>
-	<string name="no_location_message">Aucune localisation. Voulez-vous continuer?</string>
+	<string name="no_location_title">Aucune information de localisation.</string>
+	<string name="no_location_message">Vous n'êtes pas localisé. Voulez-vous continuer ?</string>
 	<string name="quit_title">Quitter</string>
-	<string name="quit_message">Si vous quittez, l\'observation en cours sera perdue!</string>
+	<string name="quit_message">Si vous quittez, l\'observation en cours sera perdue !</string>
 	
 	<string name="take_picture">Prendre une photo avec l'appareil</string>
 	<string name="choose_picture">Choisir une photo</string>
@@ -30,17 +35,27 @@
 	<string name="ok">OK</string>
 	<string name="cancel">Annuler</string>
 	<string name="date_format">dd/MM/yyyy</string>
-	<string name="start_activity">Démarrer l\'activité</string>
+	<string name="start_activity">Démarrer la capture de photos</string>
+	<string name="start_activity_text">Vous pouvez commencer à collecter des photos d\'une plante que vous voyez, en cliquant "Capture". A la fin, les photos sont envoyés sur le site web, et nous vous repondrons son nom ou une remarque à son sujet.
+	Nous aurons besoin de votre email, pour créer votre compte et vous renvoyer des informations</string>
+	
 	<string name="gps_enabled">GPS activé</string>
 	<string name="gps_disabled">GPS desactivé</string>
 	<string name="synchronize">Synchroniser</string>
 	<string name="delete">Supprimer</string>
 	<string name="undefined">Non défini</string>
 	
+	<string name="select_label">Choisissez un descriptif</string>
 	<string name="whole_plant">Plante entière</string>
 	<string name="flower">Fleur</string>
 	<string name="leaf">Feuille</string>
 	<string name="stem">Tige</string>
+	
+	<string name="tag_whole_plant">Plante entière</string>
+	<string name="tag_flower">Fleur</string>
+	<string name="tag_leaf">Feuille</string>
+	<string name="tag_stem">Tige</string>
+	<string name="tag_fruit">Fruit</string>
 	
 	<string name="num_obs">Num Observation : </string>
 	<string name="date_obs">Date : </string>

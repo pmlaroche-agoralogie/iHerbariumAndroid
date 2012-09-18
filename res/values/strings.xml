@@ -14,6 +14,12 @@
 	<string name="connected">Connected</string>
 	<string name="not_connected">Not connected</string>
 	<string name="enter_password">Enter password</string>
+	<string name="jpeg_compression">Level of picture compression</string>
+	<string name="jpeg_compression_level_20pct">Very High compression</string>
+	<string name="jpeg_compression_level_40pct">High compression</string>
+	<string name="jpeg_compression_level_60pct">Good quality</string>
+	<string name="jpeg_compression_level_80pct">High quality</string>
+	<string name="jpeg_compression_level_90pct">Very High quality (avoid if not necessary)</string>
 	<string name="synchronization_preferences">Synchronization Preferences</string>
 	<string name="auto_synchronization">Auto Synchronization</string>
 	<string name="synchronization_help">Synchronization will be auto after observation registering</string>
@@ -31,16 +37,25 @@
 	<string name="cancel">Cancel</string>
 	<string name="date_format">yyyy-MM-dd</string>
 	<string name="start_activity">Start activity</string>
+	<string name="start_activity_text">You can collect photos and videos of a plant you are seeing, and keep track of its details. The pictures are then send to the website, and you will receive an email from the site with the name of the plant or a comment</string>
+	
 	<string name="gps_enabled">GPS Enabled</string>
 	<string name="gps_disabled">GPS Disabled</string>
 	<string name="synchronize">Synchronize</string>
 	<string name="delete">Delete</string>
 	<string name="undefined">Undefined</string>
 	
+	<string name="select_label">Choose a tag</string>
 	<string name="whole_plant">Whole plant</string>
 	<string name="flower">Flower</string>
 	<string name="leaf">Leaf</string>
 	<string name="stem">Stem</string>
+	
+	<string name="tag_whole_plant">Whole plant</string>
+	<string name="tag_flower">Flower</string>
+	<string name="tag_leaf">Leaf</string>
+	<string name="tag_stem">Stem</string>
+	<string name="tag_fruit">Fruit</string>
 	
 	<string name="num_obs">Num Observation : </string>
 	<string name="date_obs">Date : </string>
